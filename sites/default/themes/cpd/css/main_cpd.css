@@ -1211,7 +1211,8 @@
   }
 
   .white .main{
-  max-width: 1024px;
+    max-width: 1024px;
+    width: 100%;
   }
 
   .button_secondary span{
