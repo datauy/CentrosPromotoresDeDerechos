@@ -98,7 +98,7 @@
 </div>
 <h2><?php print($node->title); ?></h2>
 <?php if($es_docente==true){?>
-  <?php $video_list_id = $node->field_youtube_docentes['und']['0']['value']; ?>
+  <?php $id="frame"; $video_list_id = $node->field_youtube_docentes['und']['0']['value']; ?>
   <p class="video_centrado">
     <div id="frame" class="ytv-canvas">
     </div>
@@ -109,16 +109,16 @@
     <?php print ("<a class='button' style='margin-left: 20px; position: relative; float: left;' onclick='window.print();'>Imprimir</a>"); ?>
   </div>
 <?php } else {?>
-  <?php $video_list_id = $node->field_youtube_jovenes['und']['0']['value']; ?>
+  <?php $id="frame2"; $video_list_id = $node->field_youtube_jovenes['und']['0']['value']; ?>
   <p>
-    <div id="frame" class="ytv-canvas">
+    <div id="frame2" class="ytv-canvas">
     </div>
   </p>
   <?php print render($node->field_body_jovenes['und']['0']['value']); ?>
 <?php } ?>
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function(event) {
-    var controller = new YTV('frame',
+    var controller = new YTV('<?php print_r($id); ?>',
     {playlist: '<?php print($video_list_id); ?>',
     accent: '#008D54',
     browsePlaylists: true,

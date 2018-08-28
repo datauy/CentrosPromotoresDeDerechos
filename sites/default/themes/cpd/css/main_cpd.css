@@ -1404,7 +1404,9 @@
     margin: 0;
   }
 
-  #frame{
-    width: 600px;
+  #frame.ytv-canvas, #frame2.ytv-canvas{
     height: 340px;
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
   }
