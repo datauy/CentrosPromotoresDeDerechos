@@ -67,4 +67,11 @@
                         <p>Étnico Racial</p>
                       </div>
 
+                      <div onclick="select_component('14')" class="topic">
+                        <div class="inner_topic">
+                            <img src="<?php echo $base_url; ?>/img/migrantes.svg">
+                        </div>
+                        <p>Migrantes</p>
+                      </div>
+
 </section>

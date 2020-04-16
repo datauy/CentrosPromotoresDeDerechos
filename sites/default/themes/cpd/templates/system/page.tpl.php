@@ -203,6 +203,12 @@
                                 </div>
                                 <p>Étnico Racial</p>
                               </div>
+                              <div class="topic" onclick="window.location='/migrantes'">
+                                <div class="inner_topic">
+                                    <img src="<?php echo $base_url; ?>/img/migrantes.svg">
+                                </div>
+                                <p>Migrantes</p>
+                              </div>
                             </section>
 
                             <?php } else if(isset($node) && $node->title=="Docentes"){?>
@@ -258,6 +264,12 @@
                                       <img src="<?php echo $base_url; ?>/img/etnico.svg">
                                   </div>
                                   <p>Étnico Racial</p>
+                                </div>
+                                <div class="topic" onclick="window.location='/migrantes?docentes=1'">
+                                  <div class="inner_topic">
+                                      <img src="<?php echo $base_url; ?>/img/migrantes.svg">
+                                  </div>
+                                  <p>Migrantes</p>
                                 </div>
                               </section>
                           <?php }else if(isset($node) && $node->title=="Centros participantes"){ ?>
