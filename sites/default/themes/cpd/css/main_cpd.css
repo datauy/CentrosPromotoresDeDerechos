@@ -1333,6 +1333,34 @@
       background: url(../img/2016.png) no-repeat;
   }
 
+  section.centros_mapa .centro p i.centro_2020{
+      background: url(../img/2020.png) no-repeat;
+  }
+
+  section.centros_mapa .centro p i.centro_2021{
+      background: url(../img/2021.png) no-repeat;
+  }
+
+  section.centros_mapa .centro p i.centro_2022{
+      background: url(../img/2022.png) no-repeat;
+  }
+
+  section.centros_mapa .centro p i.centro_2023{
+      background: url(../img/2023.png) no-repeat;
+  }
+
+  section.centros_mapa .centro p i.centro_2024{
+      background: url(../img/2024.png) no-repeat;
+  }
+
+  section.centros_mapa .centro p i.centro_2025{
+      background: url(../img/2025.png) no-repeat;
+  }
+
+  section.centros_mapa .centro p i.centro_2026{
+      background: url(../img/2026.png) no-repeat;
+  }
+
   .white .main-container p.video_centrado{
       text-align: center;
   }
